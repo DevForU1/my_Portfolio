@@ -86,19 +86,19 @@ export let content = {
     item: [
       {
         source: 'https://cdn.iconscout.com/icon/free/png-256/free-facebook-85-272121.png',
-        link: '#'
+        link: 'https://www.facebook.com/IamShantiMan'
       },
       {
         source: 'https://cdn.iconscout.com/icon/free/png-256/free-instagram-86-433323.png',
-        link: '#'
+        link: 'https://www.instagram.com/olehshm1dt/'
       },
       {
         source: 'https://cdn.iconscout.com/icon/free/png-256/free-github-1521488-1288230.png',
-        link: '#'
+        link: 'https://github.com/DevForU1'
       },
       {
         source: 'https://cdn.iconscout.com/icon/free/png-256/free-mail-706-434075.png',
-        link: '#'
+        link: 'mailto:olehshmdt@gmail.com'
       },
     ]
   },
