@@ -24,10 +24,10 @@ export const App = (props) => {
           <div className="content">
             <Routes>
               <Route path="" element={<Home state={props.state} />} />
-              <Route path="/Главная" element={<Home state={props.state} />} />
-              <Route path="/Обо мне" element={<About state={props.state} />} />
-              <Route path="/Проекты" element={<ProjectPage state={props.state} />} />
-              <Route path="/Контакты" element={<Contacts state={props.state} />} />
+              <Route path="/Homepage" element={<Home state={props.state} />} />
+              <Route path="/About" element={<About state={props.state} />} />
+              <Route path="/Projects" element={<ProjectPage state={props.state} />} />
+              <Route path="/Contacts" element={<Contacts state={props.state} />} />
             </Routes>
           </div>
           <Footer state={props.state.navigation} />

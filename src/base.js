@@ -69,16 +69,16 @@ export let content = {
   },
   navigation: {
     menu: [{
-        items: 'Главная'
+        items: 'Homepage'
       },
       {
-        items: 'Обо мне'
+        items: 'About'
       },
       {
-        items: 'Проекты'
+        items: 'Projects'
       },
       {
-        items: 'Контакты'
+        items: 'Contacts'
       },
     ],
   },

@@ -1,6 +1,6 @@
 {
-  "homepage" : "http://DevForU1.github.io/my_Portfolio",
-  "name": "clone-pattern",
+  "homepage" : "http://DevForU1.github.io/my_Portfolio/Главная",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
