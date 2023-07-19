@@ -1,0 +1,57 @@
+@import './../../styles/variables.module.css';
+.headerWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 15vh;
+    width: 96vw;
+    
+    
+}
+.menuContainer{
+    min-width: 325px;
+}
+.mainMenu{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .2);
+    min-width: 330px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    border-radius: 30px;
+    @media (max-width: 340) {
+        width: 100vw;
+    }
+    
+}
+.mainMenuItems{
+    text-align: center;
+    padding: 1.6vh 1.5vw;
+    &:first-child{
+    }
+    &:last-child{
+        border-right: none;
+    }
+}
+h2{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--secondary-color);
+    @media (max-width: 460) {
+        font-size: 12px;
+    }
+    @media (max-width: 340) {
+        font-size: 8px;
+    }
+    
+    &:active{
+        color: var(--link-color);
+    };
+    &:hover{
+        color: var(--link-color);
+    }
+}
